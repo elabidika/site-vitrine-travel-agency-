@@ -5,60 +5,47 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ELEANOR Travel & Tourism</title>
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <header>
-    <img src="images/logo.png" alt="Logo ELEANOR Travel">
-    <h1>ELEANOR Travel & Tourism</h1>
-    <p class="slogan">Find Your Next Place To Visit!</p>
-    <nav>
-      <ul class="menu">
-        <li><a href="#home">Accueil</a></li>
-        <li><a href="#about">À propos</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#destinations">Destinations</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li class="lang">
-          <a href="#fr">FR</a> | <a href="#en">EN</a> | <a href="#ar">AR</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
 
-  <section id="home">
-    <h2>Bienvenue chez ELEANOR Travel</h2>
-    <p>Votre agence de confiance pour des voyages élégants, personnalisés et sans stress.</p>
-  </section>
+  <!-- Logo centré -->
+  <div style="text-align: center; margin-top: 20px;">
+    <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="Logo ELEANOR Travel" style="height: 80px;">
+  </div>
 
-  <section id="about">
-    <h2>À propos</h2>
-    <p>Basée à Le Kef, nous accompagnons nos clients dans toutes les étapes : réservation, visa, séjour, et bien plus.</p>
-  </section>
+  <!-- Titre principal -->
+  <h1 style="text-align: center; font-family: 'Georgia', serif; margin-top: 10px;">
+    Bienvenue chez ELEANOR Travel & Tourism
+  </h1>
 
-  <section id="services">
-    <h2><i class="fas fa-concierge-bell"></i> Nos Services</h2>
-    <ul>
-      <li><i class="fas fa-plane"></i> Réservation de billets</li>
-      <li><i class="fas fa-passport"></i> Assistance visa</li>
-      <li><i class="fas fa-hotel"></i> Séjours sur mesure</li>
-      <li><i class="fas fa-users"></i> Voyages en groupe</li>
-    </ul>
-  </section>
+  <!-- Menu de navigation -->
+  <nav style="text-align: center; margin: 30px 0;">
+    <a href="index.html" style="margin: 0 15px;">Accueil</a>
+    <a href="services.html" style="margin: 0 15px;">Services</a>
+    <a href="destinations.html" style="margin: 0 15px;">Destinations</a>
+    <a href="contact.html" style="margin: 0 15px;">Contact</a>
+  </nav>
 
-  <section id="destinations">
-    <h2><i class="fas fa-map-marked-alt"></i> Destinations</h2>
-    <p>France, Portugal, Europe, Tunisie, Nord-Ouest… chaque voyage est une expérience unique.</p>
-  </section>
+  <!-- Contenu principal -->
+  <main style="max-width: 800px; margin: auto; font-family: Arial, sans-serif;">
+    <p>
+      ELEANOR Travel est votre agence de confiance pour des voyages élégants, sur mesure et inoubliables.
+      Nous vous accompagnons dans toutes vos démarches : réservations, visas, événements internationaux et plus encore.
+    </p>
 
-  <section id="contact">
-    <h2><i class="fas fa-envelope"></i> Contact</h2>
-    <p>📱 WhatsApp : <a href="https://wa.me/21622704667">+21622704667</a></p>
-    <p>📘 Facebook : <a href="https://www.facebook.com/profile.php?id=61553343522767">Notre page</a></p>
-  </section>
+    <p>
+      Explorez nos services, découvrez nos destinations, et contactez-nous pour créer votre voyage idéal.
+    </p>
+  </main>
 
-  <footer>
-    <p>&copy; 2025 ELEANOR Travel & Tourism. Tous droits réservés.</p>
+  <!-- Pied de page -->
+  <footer style="text-align: center; margin-top: 50px; font-size: 0.9em;">
+    <p>&copy; 2025 ELEANOR Travel & Tourism — Tous droits réservés</p>
+    <p>
+      <a href="https://wa.me/216XXXXXXXX" target="_blank">WhatsApp</a> |
+      <a href="https://www.facebook.com/eleanortravel" target="_blank">Facebook</a>
+    </p>
   </footer>
+
 </body>
 </html>
